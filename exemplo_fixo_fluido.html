@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fixo versus Layout Fluido</title>
+    <style>
+        body{
+            margin: 0;
+            font-size: 32px;
+        }
+        .engenharia, .farmacia, .matematica{
+            display: inline-block;
+            border: solid 1px black;
+            width: 20%;
+            height: 80px;
+            padding: 12px;
+        
+        }
+
+        main{
+            border: solid 1px blue;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <article class="engenharia">
+            Engenharia
+        </article>
+        <article class="farmacia">
+            Farmácia
+        </article>
+        <article class="matematica">
+            Matemática
+        </article>
+    </main>
+    
+</body>
+</html>
